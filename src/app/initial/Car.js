@@ -1,15 +1,14 @@
-var Car = (function () {
-    function Car(engine) {
+class Car {
+    constructor(engine) {
         this.engine = engine;
     }
-    Car.prototype.startEngine = function () {
-        alert("Engine started: " + this.engine);
-    };
-    Car.prototype.stopEngine = function () {
-        alert("Egine stopped: " + this.engine);
-    };
-    return Car;
-}());
+    startEngine() {
+        alert(`Engine started: ${this.engine}`);
+    }
+    stopEngine() {
+        alert(`Egine stopped: ${this.engine}`);
+    }
+}
 window.onload = function () {
     var car = new Car('V8');
     car.startEngine();
