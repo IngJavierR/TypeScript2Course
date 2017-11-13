@@ -21,7 +21,13 @@ Iniciar un nuevo proyecto node: `npm init`
 
 ###Para arrancar el proyecto
 
-
+El orden es:
+- variables
+- initial
+- complex-types
+- casting
+- interface
+- extensions
 
 ## API Reference
 
